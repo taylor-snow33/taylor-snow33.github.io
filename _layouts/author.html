@@ -1,0 +1,37 @@
+---
+layout: default
+---
+{% assign author = site.data.authors[page.author_id] %}
+
+<h1>{{ author.name }}</h1>
+
+{% if author.bio %}
+  <p>{{ author.bio }}</p>
+{% endif %}
+
+{% if author.website %}
+  <p>
+    Website: <a href="{{ author.website }}" target="_blank">{{ author.website }}</a>
+  </p>
+{% endif %}
+{% if author.twitter %}
+  <p>
+    Twitter: <a href="{{ author.twitter }}" target="_blank">@{{ author.name }}</a>
+  </p>
+{% endif %}
+{% if author.github %}
+  <p>
+    GitHub: <a href="{{ author.github }}" target="_blank">{{ author.github }}</a>
+  </p>
+{% endif %}
+
+<h2>Posts by Contributor</h2>
+<ul>
+  {% for post in site.posts %}
+    {% if post.author == page.author_id %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: '%B %d, %Y' }}
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

@@ -95,7 +95,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /media/SmartRV.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
@@ -167,6 +167,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  authors:
+    output: true
+    permalink: /authors/:path/
 
 defaults:
   - scope:

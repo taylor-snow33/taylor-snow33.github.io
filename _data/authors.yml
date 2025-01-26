@@ -1,3 +1,17 @@
 taylor.snow:
-  name: Taylor Snow
-  url:
+  name: "Taylor Snow"
+  id: "taylor.snow"
+  bio: "Contributor to DIY Smart RV. Passionate about smart RV technology, solar power, and open-source solutions."
+  website: "https://taylorsnow.me"
+  twitter:
+  github: "https://github.com/taylor-snow33"
+  url: "/authors/taylor.snow/"
+
+bob.perciaccante:
+  name: "Bob Perciaccante"
+  id: "bob.perciaccante"
+  bio: "Contributor to DIY Smart RV. Passionate about smart RV technology, solar power, and open-source solutions."
+  website:
+  twitter:
+  github: "https://github.com/rperciaccante"
+  url: "/authors/bob.perciaccante/"
