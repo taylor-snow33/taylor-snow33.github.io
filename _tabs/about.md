@@ -13,3 +13,8 @@ https://github.com/rperciaccante
 **Taylor Snow**
 https://github.com/taylor-snow33
 
+**Michael Janke**
+https://github.com/mkjanke
+
+**Rumlak**
+https://github.com/rumlak
